@@ -13,9 +13,9 @@ public class UserTest {
 
     @Before
     public void setUp() throws Exception {
-        user = new User("Евгений", 35, Gender.MALE);
-        user1 = new User("Марина", 34, Gender.FEMALE);
-        user2 = new User("Алина", 7, Gender.FEMALE);
+        user = new User("Аркадий", 29, Gender.MALE);
+        user1 = new User("Аня", 43, Gender.FEMALE);
+        user2 = new User("Полина", 14, Gender.FEMALE);
     }
 
     @Test
